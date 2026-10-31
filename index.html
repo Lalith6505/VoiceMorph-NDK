@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceMorph NDK — Zero-Lag Neural Voice Transformer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo-group">
+                <img src="assets/icon.png" alt="VoiceMorph NDK Logo">
+                <h1>VoiceMorph NDK</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="active">Overview</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="badge-pill">OBOE C++ NDK &bull; &lt;8MS ROUNDTRIP LATENCY &bull; 100% OFFLINE</div>
+            <h2>Zero-Lag Neural Voice Transformer</h2>
+            <p>Professional real-time pitch and formant morphing with studio 10-band parametric EQ, 32-band FFT spectrum analyzer, and zero-delay earphone loopback.</p>
+            <img src="assets/feature_graphic.png" alt="VoiceMorph NDK Banner" class="banner-img">
+        </section>
+
+        <section class="features-grid">
+            <div class="feature-card">
+                <h3>Sub-8ms Oboe C++ Engine</h3>
+                <p>Engineered directly on Google's high-performance native Oboe audio pipeline at 48,000 Hz / 24-bit PCM. Experience live zero-delay earphone monitoring during broadcasts, streaming, or game sessions.</p>
+            </div>
+            <div class="feature-card">
+                <h3>PSOLA Pitch & Formant Shifting</h3>
+                <p>Independent +/- 12 semitones pitch modulation with separate formant shift ratios (0.50x to 2.00x). Retain natural vocal tract physics or explore futuristic vocoders without chipmunk artifacts.</p>
+            </div>
+            <div class="feature-card">
+                <h3>10-Band EQ & 32-Band FFT</h3>
+                <p>Studio-grade mastering equalizer with precision octave bands (31Hz to 16kHz) and +/-12 dB boost/cut alongside a 32-band real-time FFT spectrum visualizer with peak hold.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Neural Presets Vault</h3>
+                <p>Instant-switch profiles including Deep Titan Podcaster, Cyberpunk Cyborg Vocoder, Demon Sovereign, Apollo 11 VHF Comms, and Helium Shifter.</p>
+            </div>
+            <div class="feature-card">
+                <h3>24-Bit Lossless WAV Master</h3>
+                <p>Record uncompressed studio WAV takes directly to private local edge storage. Instant waveform review and broadcast-quality file sharing.</p>
+            </div>
+            <div class="feature-card">
+                <h3>100% Private & Ad-Free</h3>
+                <p>Zero cloud connections, zero background analytics, zero recurring subscriptions. Complete privacy guaranteed with 100% on-device DSP execution.</p>
+            </div>
+        </section>
+
+        <section class="specs-section">
+            <h3>Technical Architecture Specifications</h3>
+            <table class="specs-table">
+                <tr>
+                    <td>Native Audio Engine</td>
+                    <td>Google Oboe C++ Audio Library (AAudio / OpenSL ES)</td>
+                </tr>
+                <tr>
+                    <td>Sampling Rate & Precision</td>
+                    <td>48,000 Hz / 24-bit Uncompressed PCM</td>
+                </tr>
+                <tr>
+                    <td>Measured Roundtrip Latency</td>
+                    <td>&lt; 7.8 ms (Oboe Fast Track Burst-Lock)</td>
+                </tr>
+                <tr>
+                    <td>Equalizer Topology</td>
+                    <td>10-Band ISO Parametric (+/- 12 dB)</td>
+                </tr>
+                <tr>
+                    <td>Spectrum Analysis</td>
+                    <td>32-Band Fast Fourier Transform (FFT) with peak hold</td>
+                </tr>
+                <tr>
+                    <td>Modulation Matrix</td>
+                    <td>PSOLA Pitch Shift, Formant Scaling, Ring Modulator (20-2500Hz)</td>
+                </tr>
+                <tr>
+                    <td>Package Name</td>
+                    <td>com.voicemorph.ndk</td>
+                </tr>
+                <tr>
+                    <td>Operating Mode</td>
+                    <td>100% Offline Edge Execution / Zero Telemetry</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 VoiceMorph NDK. Built with Jetpack Compose & Google Oboe Native C++ DSP.</p>
+    </footer>
+</body>
+</html>
